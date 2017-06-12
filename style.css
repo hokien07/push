@@ -1,0 +1,102 @@
+/*   
+Theme Name: mayphoto Theme
+Theme URI: http://muamayphoto.net
+Description: this is theme i design with bootstrap v3.7
+Author: hokien07
+Author URI: http://hokien07.net
+Version: 1
+*/
+/*********************LOGO*************************/
+.logo {
+    margin-top: -10px;
+}
+
+/*********************SLIDER*************************/
+.my-slider {
+    margin-top: 53px;
+}
+
+/*********************NEWS*************************/
+.my-news {
+    margin-top: 10px;
+}
+
+/*********************ICON*************************/
+.my-icon {
+    font-size: 200%;
+}
+
+/*********************PRODUCT*************************/
+.my-products .container {
+    padding: 10px;
+}
+.product {
+    position: relative;
+    padding: 5px;
+}
+.ten-san-pham {
+    color: #2e6da4;
+    font-size: 170%;
+    font-weight: bold;
+    font-family: "Times New Roman", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.gia-san-pham {
+    color: #a94442;
+    font-size: 160%;
+    font-family: "Times New Roman", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.socail {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    list-style-type: none;
+}
+.xem {
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    display: none;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #5bc0de;
+    border-radius: 10%;
+}
+.xem a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.product:hover {
+    background-color: whitesmoke;
+}
+.product:hover .socail {
+    display: block;
+}
+.product:hover .xem {
+    display: block;
+}
+.product:hover img {
+    opacity: 0.3;
+}
+
+/*********************FOOTER*************************/
+footer {
+    background-color: #2e6da4;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 120%;
+    color: white;
+}
+footer a {
+    color: white;
+}
+
+/*********************COPY RIGHT*************************/
+.copy-right {
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    line-height: 40px;
+}
+
